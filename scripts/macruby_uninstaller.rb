@@ -27,7 +27,7 @@ begin
         f.puts "backing up file: #{file} to #{dest_dir}"
         FileUtils.cp(file, File.join(BACKUP_DIR, file))
         f.puts "removing file: #{file}"
-        FileUtils.rm(file)
+        FileUtils.rm_f(file)
       end
     end
     f.puts "\n\nMacRuby uninstalled succesfully!"
