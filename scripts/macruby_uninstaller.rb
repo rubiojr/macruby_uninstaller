@@ -10,7 +10,7 @@ begin
   File.open(LOG, 'w') do |f|
     IO.read(File.join(File.dirname(__FILE__), 'files')).each_line do |l|
       file = l.chomp.strip
-      if not File.exist?(file)
+      if not File.exist?(file) and not File.symlink?(file)
         f.puts "Skipping non existant file/dir #{file}"
         next
       end
