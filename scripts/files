@@ -1,0 +1,28 @@
+/Library/Frameworks/MacRuby.framework
+/Developer/Examples/Ruby/MacRuby
+/Library/Application Support/Developer/3.0/Xcode/File Templates/Ruby/Ruby File.pbfiletemplate
+/Library/Application Support/Developer/3.0/Xcode/Project Templates/Application/MacRuby Application
+/Library/Application Support/Developer/3.0/Xcode/Project Templates/Application/MacRuby Core Data Application 
+/Library/Application Support/Developer/3.0/Xcode/Project Templates/Application/MacRuby Document-based Application
+/Library/Application Support/Developer/3.0/Xcode/Target Templates/Ruby/Compile.trgttmpl
+/Library/Application Support/Developer/3.0/Xcode/Target Templates/Ruby/Embed MacRuby.trgttmpl
+/Library/Application Support/Developer/Shared/Xcode/File Templates/Ruby/Ruby File.pbfiletemplate
+/Library/Application Support/Developer/Shared/Xcode/Project Templates/Application/MacRuby Application
+/Library/Application Support/Developer/Shared/Xcode/Project Templates/Application/MacRuby Core Data Application
+/Library/Application Support/Developer/Shared/Xcode/Project Templates/Application/MacRuby Document-based Application
+/Library/Application Support/Developer/Shared/Xcode/Target Templates/Ruby/Compile.trgttmpl
+/Library/Application Support/Developer/Shared/Xcode/Target Templates/Ruby/Embed MacRuby.trgttmpl
+/usr/local/bin/hotcocoa
+/usr/local/bin/macerb
+/usr/local/bin/macgem
+/usr/local/bin/macirb
+/usr/local/bin/macrake
+/usr/local/bin/macrdoc
+/usr/local/bin/macri
+/usr/local/bin/macruby
+/usr/local/bin/macruby_deploy
+/usr/local/bin/macruby_select
+/usr/local/bin/macrubyc
+/usr/local/bin/mactestrb
+/usr/local/share/man/man1/macruby.1
+/usr/bin/rb_nibtool
