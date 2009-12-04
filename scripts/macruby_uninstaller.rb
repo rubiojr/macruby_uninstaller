@@ -17,15 +17,13 @@ begin
       if File.directory? file
         dest_dir = File.join(BACKUP_DIR, file)
         FileUtils.mkdir_p(dest_dir)
-        f.puts "backing up directory: #{file} to #{dest_dir}"
         FileUtils.cp_r(file, File.dirname(dest_dir))
         f.puts "removing directory: #{file}"
         FileUtils.rm_rf(file)
       else
         dest_dir = File.join(BACKUP_DIR, File.dirname(file))
         FileUtils.mkdir_p(dest_dir) if not File.exist?(dest_dir)
-        f.puts "backing up file: #{file} to #{dest_dir}"
-        FileUtils.cp(file, File.join(BACKUP_DIR, file))
+        FileUtils.cp(file, File.join(BACKUP_DIR, file)) if not File.symlink?(file)
         f.puts "removing file: #{file}"
         FileUtils.rm_f(file)
       end
